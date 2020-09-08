@@ -15,7 +15,7 @@ export const Button: FC<Props> = ({ text, maybe }) => {
     <button>{text}</button>
     <style jsx>{`
       button {
-        background: red;
+        background: orangered;
 
         &:hover, &:focus, &:active {
           background: blue;
